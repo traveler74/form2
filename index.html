@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="1.js" defer></script>
+    <link rel="stylesheet" href="1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+<main>
+<header>
+    <h2>Онлайн-кинотеатр "NO LIMITS"</h2>
+    <ol>
+        <li><a href="#s1">О платформе</a></li>
+        <li><a href="#s2">Преимущества</a></li>
+        <li><a href="#s3">Отзывы</a></li>
+        </ol>
+</header>
+
+    <section class="s1" id="s1">
+        <div class="row">
+            <img src="https://teatrtogo.ru/wp-content/uploads/2023/01/kino.jpg" alt="">
+            <img src="https://pp.userapi.com/c628830/v628830176/5c4d2/jW9fjyNMikc.jpg" alt="">
+            <img src="https://citysakh.ru/files/img/i/b2/35/5e3ddaf55fadd3e58537e.jpg" alt="">
+                    </div>
+        <div class="row">
+<h2>NO LIMITS - российский стриминговый сервис, по состоянию на 2023 год занимает первое место среди российских онлайн-кинотеатров по количеству подписчиков</h2>
+            </div>
+    </section>
+
+     <section class="s2" id="s2">
+        <div class="row">
+            <ol>
+<li>&#128293;Миллиону пользователей уже доступны:</li>
+<li>&#9658;256 разнообразных ТВ-каналов</li>
+<li>&#9658;50 000 фильмов и сериалов, более 800 из которых — эксклюзивы</li>
+<li>&#9658;Фильмы и сериалы нескольких видеосервисов</li>
+            </ol>
+            <img src="https://u.9111s.ru/uploads/202204/11/70d55a772f911a8e49e60d61d312631b.jpg" alt="">
+        </div>
+    </section>
+
+     <section class="s3" id="s3">
+            <h2>ОТЗЫВЫ</h2>
+<ol>
+    <li>
+        Евгений: Сайт, где можно целый месяц бесплатно смотреть фильмы в хорошем качестве
+    </li>
+    <br>
+    <li>
+        Михаил: Хорошее дополнение к ленивому проведению свободного времени
+    </li>
+    <br>
+    <li>
+        Вика: Ничего, скоро и из чайника будет вещать, с таким то подходом) красавчики однозначно)
+    </li>
+    <br>
+    <li>
+        Алексей: Помог в самоизоляцию, но своих денег не стоит
+    </li>
+    <br>
+    <li>
+        Марина: Как потратить 400 рублей? Купить подписку на месяц!
+    </li>
+</ol>
+    </section>
+</main>
+<hr>
+<form action="" id="form1">
+   <fieldset>
+       <legend>Подписка на онлайн-кинотеатр</legend>
+       <label>
+           <span>Согласен с правилами</span>
+       <input type="checkbox" name="ok" required>
+       </label>
+       <label for="login">Введите имя:</label>
+       <input type="text" id="login" name="login" checked required>
+       <label for="pass">Введите пароль:</label>
+       <input type="password" id="pass" name="pass" checked required>
+       <label for="email">Введите почту:</label>
+       <input type="email" id="email" name="email" checked required>
+
+       <label>
+       <span>Мне больше 18 лет</span>
+       <input type="radio" name="age" value="big">
+       </label>
+       <label>
+       <span>Мне меньше 18 лет</span>
+       <input type="radio" name="age" value="small">
+       </label>
+
+       <label>
+           <span>Выберите подписку:</span>
+           <select name="podpiska">
+            <option value="1">ВСЕ И СРАЗУ</option>
+            <option value="2">КИНО</option>
+            <option value="3">СПОРТ</option>
+            <option value="4">КЛУБНИКА</option>
+           </select>
+       </label>
+
+       <input type="submit" value="Отправить" id="but1">
+   </fieldset>
+    </form>
+</body>
+</html>
